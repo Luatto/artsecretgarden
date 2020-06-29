@@ -4,35 +4,78 @@
 <link rel="stylesheet" style="css/text" href="asg.css">
 </head>
 <body>
+<div class="top"><img src="logo.png" height="100"></div>
 <form name="submit-to-google-sheet">
+<div class="order">
 <script src="asg.js"></script>
-<h>ART SECRET GARDEN</h>
 <br>
-  <input name="email" placeholder="Email or phone number" required>
+  <div class="infoinput"><input name="email" placeholder="Email or phone number" required></div>
   <br>
   <h1>
-  TEA
+  JUICE
   </h1>
   <table>
   <tr style="text-align:center;">
   <th>
-  <img src="https://nutifood.com.vn/images/A-DDBenhLy/traxanh2-nutifood.jpg" width="140" height="90" onclick="add()">
+  Green Tea <br>
+  <img src="https://nutifood.com.vn/images/A-DDBenhLy/traxanh2-nutifood.jpg" width="80" height="50" onclick="add()">
   <br>
-  <input name="green-tea" id="green-tea" type="number" value="0" width="48">
+  <input name="green-tea" id="green-tea" size="5" value="0" size="50" style="text-align:center;">
+  <br>
   <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct()">
   <br>
   </th>
   <th>
-  <img src="https://sonviettea.com/uploads/posts/Tra-Hoa-Atiso-Kho_3.jpg" width="140" height="90" onclick="add1()">
+  Green Tea <br>
+  <img src="https://sonviettea.com/uploads/posts/Tra-Hoa-Atiso-Kho_3.jpg" width="80" height="50" onclick="add1()">
   <br>
-  <input name="atiso" id="atiso" type="number" value="0" width="48">
+  <input name="atiso" id="atiso" size="5" value="0" width="48" style="text-align:center;">
+  <br>
   <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct1()">
   <br>
   </th>
-    <th>
-  <img src="https://www.thuocdantoc.org/wp-content/uploads/2019/09/chua-viem-dai-trang-bang-la-voi-1.jpg" width="140" height="90" onclick="add2()">
+  <th>
+  Green Tea <br>
+  <img src="https://www.thuocdantoc.org/wp-content/uploads/2019/09/chua-viem-dai-trang-bang-la-voi-1.jpg" width="80" height="50" onclick="add2()">
   <br>
-  <input name="voi-tea" id="voi-tea" type="number" value="0" width="48">
+  <input name="voi-tea" id="voi-tea" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct2()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://www.thuocdantoc.org/wp-content/uploads/2019/09/chua-viem-dai-trang-bang-la-voi-1.jpg" width="80" height="50" onclick="add2()">
+  <br>
+  <input name="voi-tea" id="voi-tea" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct2()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://www.thuocdantoc.org/wp-content/uploads/2019/09/chua-viem-dai-trang-bang-la-voi-1.jpg" width="80" height="50" onclick="add2()">
+  <br>
+  <input name="voi-tea" id="voi-tea" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct2()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://www.thuocdantoc.org/wp-content/uploads/2019/09/chua-viem-dai-trang-bang-la-voi-1.jpg" width="80" height="50" onclick="add2()">
+  <br>
+  <input name="voi-tea" id="voi-tea" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct2()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://www.thuocdantoc.org/wp-content/uploads/2019/09/chua-viem-dai-trang-bang-la-voi-1.jpg" width="80" height="50" onclick="add2()">
+  <br>
+  <input name="voi-tea" id="voi-tea" size="5" value="0" width="48" style="text-align:center;">
+  <br>
   <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct2()">
   <br>
   </th>
@@ -44,30 +87,214 @@
   <table>
   <tr style="text-align:center;">
   <th>
-  <img src="https://lh3.googleusercontent.com/proxy/aku7YT7X00vEI1Ue4wdsxnlovGHfyE0_PKu2qR6kGXZ8VYZNYAJ9fkxW146Qe8q-aDHcrEnVC7iHnEuVfUI0rKuhr17hDncH3QU2" width="140" height="90" onclick="add3()">
+  Green Tea <br>
+  <img src="https://lh3.googleusercontent.com/proxy/aku7YT7X00vEI1Ue4wdsxnlovGHfyE0_PKu2qR6kGXZ8VYZNYAJ9fkxW146Qe8q-aDHcrEnVC7iHnEuVfUI0rKuhr17hDncH3QU2" width="80" height="50" onclick="add3()">
   <br>
-  <input name="americano" id="americano" type="number" value="0" width="48">
+  <input name="americano" id="americano" size="5" value="0" width="48" style="text-align:center;">
+  <br>
   <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct3()">
   <br>
   </th>
   <th>
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkVBmIYgw_qKHGgN81KN6WWweUL1sudUomPw&usqp=CAU" width="140" height="90" onclick="add4()">
+  Green Tea <br>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkVBmIYgw_qKHGgN81KN6WWweUL1sudUomPw&usqp=CAU" width="80" height="50" onclick="add4()">
   <br>
-  <input name="epresso" id="epresso" type="number" value="0" width="48">
+  <input name="epresso" id="epresso" size="5" value="0" width="48" style="text-align:center;">
+  <br>
   <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct4()">
   <br>
   </th>
-    <th>
-  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="140" height="90" onclick="add5()">
+  <th>
+  Green Tea <br>
+  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
   <br>
-  <input name="caphecotdua" id="caphecotdua" type="number" value="0" width="48">
+  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  <br>
+  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  <br>
+  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  <br>
+  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  <br>
+  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <br>
+  </th>
+   </tr>
+  </table>
+  <h1>
+   BEER
+  </h1>
+  <table>
+  <tr style="text-align:center;">
+  <th>
+  Green Tea <br>
+  <img src="https://lh3.googleusercontent.com/proxy/aku7YT7X00vEI1Ue4wdsxnlovGHfyE0_PKu2qR6kGXZ8VYZNYAJ9fkxW146Qe8q-aDHcrEnVC7iHnEuVfUI0rKuhr17hDncH3QU2" width="80" height="50" onclick="add3()">
+  <br>
+  <input name="americano" id="americano" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct3()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkVBmIYgw_qKHGgN81KN6WWweUL1sudUomPw&usqp=CAU" width="80" height="50" onclick="add4()">
+  <br>
+  <input name="epresso" id="epresso" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct4()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  <br>
+  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  <br>
+  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  <br>
+  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  <br>
+  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  <br>
+  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <br>
+  </th>
+   </tr>
+  </table>
+    <h1>
+   WINE
+  </h1>
+  <table>
+  <tr style="text-align:center;">
+  <th>
+  Green Tea <br>
+  <img src="https://lh3.googleusercontent.com/proxy/aku7YT7X00vEI1Ue4wdsxnlovGHfyE0_PKu2qR6kGXZ8VYZNYAJ9fkxW146Qe8q-aDHcrEnVC7iHnEuVfUI0rKuhr17hDncH3QU2" width="80" height="50" onclick="add3()">
+  <br>
+  <input name="americano" id="americano" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct3()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkVBmIYgw_qKHGgN81KN6WWweUL1sudUomPw&usqp=CAU" width="80" height="50" onclick="add4()">
+  <br>
+  <input name="epresso" id="epresso" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct4()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  <br>
+  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  <br>
+  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  <br>
+  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <br>
+  </th>
+   <th>
+   Green Tea <br>
+  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  <br>
+  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <br>
+  </th>
+  <th>
+  Green Tea <br>
+  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  <br>
+  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <br>
   <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
   <br>
   </th>
    </tr>
   </table>
   <br>
-  <button type="submit" onclick="waiting()">ORDER</button>
+  <div class="orderbutton"><button type="submit" class="button" onclick="waiting()">ORDER</button></div>
+  </div>
+  <div class="tablelayout"> <br> CHOOSE TABLE <br> <br> "TABLE LAYOUT" </div>
 </form>
 </body>
 </html>
