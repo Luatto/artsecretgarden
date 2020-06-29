@@ -1,4 +1,9 @@
+<!doctype html>
+<html lang="en">
+<head>
 <link rel="stylesheet" style="css/text" href="asg.css">
+</head>
+<body>
 <form name="submit-to-google-sheet">
 <script src="asg.js"></script>
 <h>ART SECRET GARDEN</h>
@@ -62,5 +67,7 @@
    </tr>
   </table>
   <br>
-  <button type="submit">ORDER</button>
+  <button type="submit" onclick="waiting()">ORDER</button>
 </form>
+</body>
+</html>
