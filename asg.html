@@ -1,0 +1,66 @@
+<link rel="stylesheet" style="css/text" href="asg.css">
+<form name="submit-to-google-sheet">
+<script src="asg.js"></script>
+<h>ART SECRET GARDEN</h>
+<br>
+  <input name="email" placeholder="Email or phone number" required>
+  <br>
+  <h1>
+  TEA
+  </h1>
+  <table>
+  <tr style="text-align:center;">
+  <th>
+  <img src="https://nutifood.com.vn/images/A-DDBenhLy/traxanh2-nutifood.jpg" width="140" height="90" onclick="add()">
+  <br>
+  <input name="green-tea" id="green-tea" type="number" value="0" width="48">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct()">
+  <br>
+  </th>
+  <th>
+  <img src="https://sonviettea.com/uploads/posts/Tra-Hoa-Atiso-Kho_3.jpg" width="140" height="90" onclick="add1()">
+  <br>
+  <input name="atiso" id="atiso" type="number" value="0" width="48">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct1()">
+  <br>
+  </th>
+    <th>
+  <img src="https://www.thuocdantoc.org/wp-content/uploads/2019/09/chua-viem-dai-trang-bang-la-voi-1.jpg" width="140" height="90" onclick="add2()">
+  <br>
+  <input name="voi-tea" id="voi-tea" type="number" value="0" width="48">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct2()">
+  <br>
+  </th>
+   </tr>
+  </table>    
+  <h1>
+  COFFEE
+  </h1>
+  <table>
+  <tr style="text-align:center;">
+  <th>
+  <img src="https://lh3.googleusercontent.com/proxy/aku7YT7X00vEI1Ue4wdsxnlovGHfyE0_PKu2qR6kGXZ8VYZNYAJ9fkxW146Qe8q-aDHcrEnVC7iHnEuVfUI0rKuhr17hDncH3QU2" width="140" height="90" onclick="add3()">
+  <br>
+  <input name="americano" id="americano" type="number" value="0" width="48">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct3()">
+  <br>
+  </th>
+  <th>
+  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkVBmIYgw_qKHGgN81KN6WWweUL1sudUomPw&usqp=CAU" width="140" height="90" onclick="add4()">
+  <br>
+  <input name="epresso" id="epresso" type="number" value="0" width="48">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct4()">
+  <br>
+  </th>
+    <th>
+  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="140" height="90" onclick="add5()">
+  <br>
+  <input name="caphecotdua" id="caphecotdua" type="number" value="0" width="48">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <br>
+  </th>
+   </tr>
+  </table>
+  <br>
+  <button type="submit">ORDER</button>
+</form>
