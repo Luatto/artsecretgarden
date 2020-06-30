@@ -60,11 +60,9 @@ button{
 }
 .tablelayout{
 	width:20%;
-	min-height:100vh;
-	height:720px;
+    margin-left:35%;
 	background-color: #eda82c;
 	text-align:center;
-	float:left;
 }
 .back{
 	margin-left:80%;
