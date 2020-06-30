@@ -4,7 +4,7 @@
 <link rel="stylesheet" style="css/text" href="asg.css">
 </head>
 <body>
-<div class="top"><img src="logo.png" height="100"></div>
+<div class="top"><img src="logo.png" height="90"></div>
 <form name="submit-to-google-sheet">
 <div class="order">
 <script src="asg.js"></script>
@@ -17,68 +17,70 @@
   <table>
   <tr style="text-align:center;">
   <th>
-  Green Tea <br>
-  <img src="https://nutifood.com.vn/images/A-DDBenhLy/traxanh2-nutifood.jpg" width="80" height="50" onclick="add()">
+  pineapple <br>
+  <img src="image/juice/pineapple.jpg" width="80" height="50" onclick="add1()">
   <br>
-  <input name="green-tea" id="green-tea" size="5" value="0" size="50" style="text-align:center;">
-  <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct()">
-  <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://sonviettea.com/uploads/posts/Tra-Hoa-Atiso-Kho_3.jpg" width="80" height="50" onclick="add1()">
-  <br>
-  <input name="atiso" id="atiso" size="5" value="0" width="48" style="text-align:center;">
+  <input name="pineapple" id="pineapple" size="5" value="0" size="50" style="text-align:center;">
   <br>
   <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct1()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://www.thuocdantoc.org/wp-content/uploads/2019/09/chua-viem-dai-trang-bang-la-voi-1.jpg" width="80" height="50" onclick="add2()">
+  </th> 
+<th>
+  carrot <br>
+  <img src="image/juice/carrot.jpg" width="80" height="50" onclick="add2()">
   <br>
-  <input name="voi-tea" id="voi-tea" size="5" value="0" width="48" style="text-align:center;">
-  <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct2()">
-  <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://www.thuocdantoc.org/wp-content/uploads/2019/09/chua-viem-dai-trang-bang-la-voi-1.jpg" width="80" height="50" onclick="add2()">
-  <br>
-  <input name="voi-tea" id="voi-tea" size="5" value="0" width="48" style="text-align:center;">
+  <input name="carrot" id="carrot" size="5" value="0" size="50" style="text-align:center;">
   <br>
   <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct2()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://www.thuocdantoc.org/wp-content/uploads/2019/09/chua-viem-dai-trang-bang-la-voi-1.jpg" width="80" height="50" onclick="add2()">
+  </th> 
+<th>
+  watermelon <br>
+  <img src="image/juice/watermelon.jpg" width="80" height="50" onclick="add3()">
   <br>
-  <input name="voi-tea" id="voi-tea" size="5" value="0" width="48" style="text-align:center;">
+  <input name="watermelon" id="watermelon" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct2()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct3()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://www.thuocdantoc.org/wp-content/uploads/2019/09/chua-viem-dai-trang-bang-la-voi-1.jpg" width="80" height="50" onclick="add2()">
+  </th> 
+<th>
+  orange <br>
+  <img src="image/juice/orange.jpg" width="80" height="50" onclick="add4()">
   <br>
-  <input name="voi-tea" id="voi-tea" size="5" value="0" width="48" style="text-align:center;">
+  <input name="orange" id="orange" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct2()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct4()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://www.thuocdantoc.org/wp-content/uploads/2019/09/chua-viem-dai-trang-bang-la-voi-1.jpg" width="80" height="50" onclick="add2()">
+  </th> 
+<th>
+  passion <br>
+  <img src="image/juice/passion.jpg" width="80" height="50" onclick="add5()">
   <br>
-  <input name="voi-tea" id="voi-tea" size="5" value="0" width="48" style="text-align:center;">
+  <input name="passionfruit" id="passionfruit" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct2()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
   <br>
-  </th>
+  </th> 
+<th>
+  coconut <br>
+  <img src="image/juice/coconut.jpg" width="80" height="50" onclick="add6()">
+  <br>
+  <input name="coconut" id="coconut" size="5" value="0" size="50" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct6()">
+  <br>
+  </th> 
+<th>
+  mojito <br>
+  <img src="image/juice/mojito.jpg" width="80" height="50" onclick="add7()">
+  <br>
+  <input name="mojito" id="mojito" size="5" value="0" size="50" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct7()">
+  <br>
+  </th> 
+
+
    </tr>
   </table>    
   <h1>
@@ -87,138 +89,149 @@
   <table>
   <tr style="text-align:center;">
   <th>
-  Green Tea <br>
-  <img src="https://lh3.googleusercontent.com/proxy/aku7YT7X00vEI1Ue4wdsxnlovGHfyE0_PKu2qR6kGXZ8VYZNYAJ9fkxW146Qe8q-aDHcrEnVC7iHnEuVfUI0rKuhr17hDncH3QU2" width="80" height="50" onclick="add3()">
+  espresso <br>
+  <img src="image/coffee/espresso.jpg" width="80" height="50" onclick="add8()">
   <br>
-  <input name="americano" id="americano" size="5" value="0" width="48" style="text-align:center;">
+  <input name="espresso" id="espresso" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct3()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct8()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkVBmIYgw_qKHGgN81KN6WWweUL1sudUomPw&usqp=CAU" width="80" height="50" onclick="add4()">
+  </th> 
+<th>
+  americano <br>
+  <img src="image/coffee/americano.jpg" width="80" height="50" onclick="add9()">
   <br>
-  <input name="epresso" id="epresso" size="5" value="0" width="48" style="text-align:center;">
+  <input name="americano" id="americano" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct4()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct9()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  </th> 
+<th>
+  duatuyet <br>
+  <img src="image/coffee/duatuyet.jpg" width="80" height="50" onclick="add10()">
   <br>
-  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <input name="duatuyet" id="duatuyet" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct10()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  </th> 
+<th>
+  cotdua <br>
+  <img src="image/coffee/cotdua.jpg" width="80" height="50" onclick="add11()">
   <br>
-  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <input name="cotdua" id="cotdua" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct11()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  </th> 
+<th>
+  socola <br>
+  <img src="image/coffee/socola.jpg" width="80" height="50" onclick="add12()">
   <br>
-  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <input name="socola" id="socola" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct12()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  </th> 
+<th>
+  bo <br>
+  <img src="image/coffee/bo.jpg" width="80" height="50" onclick="add13()">
   <br>
-  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <input name="bo" id="bo" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct13()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
-  <br>
-  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
-  <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
-  <br>
-  </th>
+  </th> 
    </tr>
   </table>
   <h1>
-   BEER
+  BEER
   </h1>
   <table>
   <tr style="text-align:center;">
   <th>
-  Green Tea <br>
-  <img src="https://lh3.googleusercontent.com/proxy/aku7YT7X00vEI1Ue4wdsxnlovGHfyE0_PKu2qR6kGXZ8VYZNYAJ9fkxW146Qe8q-aDHcrEnVC7iHnEuVfUI0rKuhr17hDncH3QU2" width="80" height="50" onclick="add3()">
+  saigonspecial <br>
+  <img src="image/beer/beer.jpg" width="80" height="50" onclick="add14()">
   <br>
-  <input name="americano" id="americano" size="5" value="0" width="48" style="text-align:center;">
+  <input name="saigonspecial" id="saigonspecial" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct3()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct14()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkVBmIYgw_qKHGgN81KN6WWweUL1sudUomPw&usqp=CAU" width="80" height="50" onclick="add4()">
+  </th> 
+<th>
+  tigercrystal <br>
+  <img src="image/beer/beer.jpg" width="80" height="50" onclick="add15()">
   <br>
-  <input name="epresso" id="epresso" size="5" value="0" width="48" style="text-align:center;">
+  <input name="tigercrystal" id="tigercrystal" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct4()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct15()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  </th> 
+<th>
+  budweiser <br>
+  <img src="image/beer/beer.jpg" width="80" height="50" onclick="add16()">
   <br>
-  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <input name="budweiser" id="budweiser" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct16()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  </th> 
+<th>
+  truc bach <br>
+  <img src="image/beer/beer.jpg" width="80" height="50" onclick="add17()">
   <br>
-  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <input name="truc bach" id="truc bach" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct17()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  </th> 
+<th>
+  lao <br>
+  <img src="image/beer/beer.jpg" width="80" height="50" onclick="add18()">
   <br>
-  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <input name="lao" id="lao" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct18()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  </th> 
+<th>
+  heniken <br>
+  <img src="image/beer/beer.jpg" width="80" height="50" onclick="add19()">
   <br>
-  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <input name="heniken" id="heniken" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct19()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  </th> 
+  </tr>
+  <tr>
+<th>
+  laoblack <br>
+  <img src="image/beer/beer.jpg" width="80" height="50" onclick="add20()">
   <br>
-  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <input name="laoblack" id="laoblack" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct20()">
   <br>
-  </th>
+  </th> 
+<th>
+  corona <br>
+  <img src="image/beer/beer.jpg" width="80" height="50" onclick="add21()">
+  <br>
+  <input name="corona" id="corona" size="5" value="0" size="50" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct21()">
+  <br>
+  </th> 
+<th>
+  hoegarden <br>
+  <img src="image/beer/beer.jpg" width="80" height="50" onclick="add22()">
+  <br>
+  <input name="hoegarden" id="hoegarden" size="5" value="0" size="50" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct22()">
+  <br>
+  </th> 
    </tr>
   </table>
     <h1>
@@ -227,74 +240,211 @@
   <table>
   <tr style="text-align:center;">
   <th>
-  Green Tea <br>
-  <img src="https://lh3.googleusercontent.com/proxy/aku7YT7X00vEI1Ue4wdsxnlovGHfyE0_PKu2qR6kGXZ8VYZNYAJ9fkxW146Qe8q-aDHcrEnVC7iHnEuVfUI0rKuhr17hDncH3QU2" width="80" height="50" onclick="add3()">
+  ballantine30 <br>
+  <img src="image/wine/wine.jpg" width="80" height="50" onclick="add23()">
   <br>
-  <input name="americano" id="americano" size="5" value="0" width="48" style="text-align:center;">
+  <input name="ballantine30" id="ballantine30" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct3()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct23()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkVBmIYgw_qKHGgN81KN6WWweUL1sudUomPw&usqp=CAU" width="80" height="50" onclick="add4()">
+  </th> 
+<th>
+  johnniewalkerblue21 <br>
+  <img src="image/wine/wine.jpg" width="80" height="50" onclick="add24()">
   <br>
-  <input name="epresso" id="epresso" size="5" value="0" width="48" style="text-align:center;">
+  <input name="johnniewalkerblue21" id="johnniewalkerblue21" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct4()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct24()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  </th> 
+<th>
+  ballantine21 <br>
+  <img src="image/wine/wine.jpg" width="80" height="50" onclick="add25()">
   <br>
-  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <input name="ballantine21" id="ballantine21" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct25()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  </th> 
+<th>
+  royalsalute21 <br>
+  <img src="image/wine/wine.jpg" width="80" height="50" onclick="add26()">
   <br>
-  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <input name="royalsalute21" id="royalsalute21" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct26()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  </th> 
+<th>
+  windsor21 <br>
+  <img src="image/wine/wine.jpg" width="80" height="50" onclick="add27()">
   <br>
-  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <input name="windsor21" id="windsor21" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct27()">
   <br>
-  </th>
-   <th>
-   Green Tea <br>
-  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  </th> 
+<th>
+  ballantine17 <br>
+  <img src="image/wine/wine.jpg" width="80" height="50" onclick="add28()">
   <br>
-  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <input name="ballantine17" id="ballantine17" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct28()">
   <br>
-  </th>
-  <th>
-  Green Tea <br>
-  <img src="https://caphenguyenchat.vn/wp-content/uploads/2018/05/pha-che-cafe-ly-thuy-tinh.jpg" width="80" height="50" onclick="add5()">
+  </th> 
+  </tr>
+  <tr>
+<th>
+  scotthblue21 <br>
+  <img src="image/wine/wine.jpg" width="80" height="50" onclick="add29()">
   <br>
-  <input name="caphecotdua" id="caphecotdua" size="5" value="0" width="48" style="text-align:center;">
+  <input name="scotthblue21" id="scotthblue21" size="5" value="0" size="50" style="text-align:center;">
   <br>
-  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct5()">
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct29()">
   <br>
-  </th>
+  </th> 
+<th>
+  goldenblue17 <br>
+  <img src="image/wine/wine.jpg" width="80" height="50" onclick="add30()">
+  <br>
+  <input name="goldenblue17" id="goldenblue17" size="5" value="0" size="50" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct30()">
+  <br>
+  </th> 
+<th>
+  windsor17 <br>
+  <img src="image/wine/wine.jpg" width="80" height="50" onclick="add31()">
+  <br>
+  <input name="windsor17" id="windsor17" size="5" value="0" size="50" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct31()">
+  <br>
+  </th> 
+<th>
+  scotthblue17 <br>
+  <img src="image/wine/wine.jpg" width="80" height="50" onclick="add32()">
+  <br>
+  <input name="scotthblue17" id="scotthblue17" size="5" value="0" size="50" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct32()">
+  <br>
+  </th> 
+<th>
+  goldenblue12 <br>
+  <img src="image/wine/wine.jpg" width="80" height="50" onclick="add33()">
+  <br>
+  <input name="goldenblue12" id="goldenblue12" size="5" value="0" size="50" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct33()">
+  <br>
+  </th> 
+<th>
+  windsor12 <br>
+  <img src="image/wine/wine.jpg" width="80" height="50" onclick="add34()">
+  <br>
+  <input name="windsor12" id="windsor12" size="5" value="0" size="50" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct34()">
+  <br>
+  </th> 
+  </tr>
+  <tr>
+<th>
+  johnniewalkerblack12 <br>
+  <img src="image/wine/wine.jpg" width="80" height="50" onclick="add35()">
+  <br>
+  <input name="johnniewalkerblack12" id="johnniewalkerblack12" size="5" value="0" size="50" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct35()">
+  <br>
+  </th> 
+<th>
+  ballantine12 <br>
+  <img src="image/wine/wine.jpg" width="80" height="50" onclick="add36()">
+  <br>
+  <input name="ballantine12" id="ballantine12" size="5" value="0" size="50" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct36()">
+  <br>
+  </th> 
+<th>
+  josecuervoespecial <br>
+  <img src="image/wine/wine.jpg" width="80" height="50" onclick="add37()">
+  <br>
+  <input name="josecuervoespecial" id="josecuervoespecial" size="5" value="0" size="50" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct37()">
+  <br>
+  </th> 
+<th>
+  soju <br>
+  <img src="image/wine/wine.jpg" width="80" height="50" onclick="add38()">
+  <br>
+  <input name="soju" id="soju" size="5" value="0" size="50" style="text-align:center;">
+  <br>
+  <img src="https://img.icons8.com/cotton/2x/minus--v1.png" width="20" onclick="deduct38()">
+  <br>
+  </th> 
    </tr>
+   
   </table>
   <br>
   <div class="orderbutton"><button type="submit" class="button" onclick="waiting()">ORDER</button></div>
   </div>
-  <div class="tablelayout"> <br> CHOOSE TABLE <br> <br> "TABLE LAYOUT" </div>
+  <div class="tablelayout"> 
+  <br> "1ST FLOOR LAYOUT" 
+  <table id="layout">
+  <tr>
+  <th><div class="rectangel"> </div></th>
+  <th></th>
+  <th></th>
+  <th></th>
+  </tr>
+  <tr>
+  <th><div class="rectangel"> </div></th>
+  <th></th>
+  <th></th>
+  <th></th>
+  </tr>
+  <tr>
+  <th><div class="rectangel"> </div></th>
+  <th></th>
+  <th></th>
+  <th></th>
+  </tr>
+  <tr>
+  <th><div class="square"> </div></th>
+  <th></th>
+  <th></th>
+  <th><div class="square"> </div></th>
+  </tr>
+  <tr>
+  <th></th>
+  <th><div class="round"></div></th>
+  <th></th>
+  <th><div class="square"> </div></th>
+  </tr>
+  <tr>
+  <th><div class="square"></div></th>
+  <th></th>
+  <th colspan="2"><div class="rectangelbig"> </div></th>
+  </tr>
+  <tr>
+  <th></th>
+  <th></th>
+  <th></th>
+  <th><div class="square"></div></th>
+  </tr>
+  <tr>
+  <th><div class="square"></div></th>
+  <th></th>
+  <th></th>
+  <th><div class="square"></div></th>
+  </tr>
+  </table>
+  </div>
 </form>
 </body>
 </html>
