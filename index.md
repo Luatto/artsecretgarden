@@ -4,7 +4,6 @@
 <link rel="stylesheet" style="css/text" href="asg.css">
 </head>
 <body>
-<div class="top"><img src="logo.png" height="90"></div>
 <form name="submit-to-google-sheet">
 <div class="order">
 <script src="asg.js"></script>
@@ -392,6 +391,58 @@
   </table>
   <br>
   <div class="orderbutton"><button type="submit" class="button" onclick="waiting()">ORDER</button></div>
+  </div>
+  <div class="tablelayout"> 
+  <br> "1ST FLOOR LAYOUT" 
+  <table id="layout">
+  <tr>
+  <th><div class="rectangel"> </div></th>
+  <th></th>
+  <th></th>
+  <th></th>
+  </tr>
+  <tr>
+  <th><div class="rectangel"> </div></th>
+  <th></th>
+  <th></th>
+  <th></th>
+  </tr>
+  <tr>
+  <th><div class="rectangel"> </div></th>
+  <th></th>
+  <th></th>
+  <th></th>
+  </tr>
+  <tr>
+  <th><div class="square"> </div></th>
+  <th></th>
+  <th></th>
+  <th><div class="square"> </div></th>
+  </tr>
+  <tr>
+  <th></th>
+  <th><div class="round"></div></th>
+  <th></th>
+  <th><div class="square"> </div></th>
+  </tr>
+  <tr>
+  <th><div class="square"></div></th>
+  <th></th>
+  <th colspan="2"><div class="rectangelbig"> </div></th>
+  </tr>
+  <tr>
+  <th></th>
+  <th></th>
+  <th></th>
+  <th><div class="square"></div></th>
+  </tr>
+  <tr>
+  <th><div class="square"></div></th>
+  <th></th>
+  <th></th>
+  <th><div class="square"></div></th>
+  </tr>
+  </table>
   </div>
 </form>
 </body>
